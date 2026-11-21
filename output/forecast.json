@@ -1,0 +1,1603 @@
+{
+  "competition": "gta6-trophy-rarity-forecast-01",
+  "methodology": "power-law percentage-of-players curve p = p0 * k^effort per category (calibrated on GTA V / GTA Online / RDR2 rarity data) times a difficulty penalty multiplier (easy 1.0, medium 0.78, hard 0.55, grind 0.32, collectible 0.42, mp_locked 0.25)",
+  "trophy_count": 228,
+  "forecast": [
+    {
+      "trophy_id": "GTAVI_001",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 0.0,
+      "predicted_week1_earn_rate": 0.62
+    },
+    {
+      "trophy_id": "GTAVI_002",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 0.45,
+      "predicted_week1_earn_rate": 0.5689
+    },
+    {
+      "trophy_id": "GTAVI_003",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 0.9,
+      "predicted_week1_earn_rate": 0.522
+    },
+    {
+      "trophy_id": "GTAVI_004",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 1.35,
+      "predicted_week1_earn_rate": 0.47898
+    },
+    {
+      "trophy_id": "GTAVI_005",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 1.8,
+      "predicted_week1_earn_rate": 0.4395
+    },
+    {
+      "trophy_id": "GTAVI_006",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 2.25,
+      "predicted_week1_earn_rate": 0.40327
+    },
+    {
+      "trophy_id": "GTAVI_007",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 2.7,
+      "predicted_week1_earn_rate": 0.37003
+    },
+    {
+      "trophy_id": "GTAVI_008",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 3.15,
+      "predicted_week1_earn_rate": 0.33953
+    },
+    {
+      "trophy_id": "GTAVI_009",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 3.6,
+      "predicted_week1_earn_rate": 0.31154
+    },
+    {
+      "trophy_id": "GTAVI_010",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 4.05,
+      "predicted_week1_earn_rate": 0.28586
+    },
+    {
+      "trophy_id": "GTAVI_011",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 4.5,
+      "predicted_week1_earn_rate": 0.2623
+    },
+    {
+      "trophy_id": "GTAVI_012",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 4.95,
+      "predicted_week1_earn_rate": 0.24068
+    },
+    {
+      "trophy_id": "GTAVI_013",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 5.4,
+      "predicted_week1_earn_rate": 0.22084
+    },
+    {
+      "trophy_id": "GTAVI_014",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 5.85,
+      "predicted_week1_earn_rate": 0.20264
+    },
+    {
+      "trophy_id": "GTAVI_015",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 6.3,
+      "predicted_week1_earn_rate": 0.18594
+    },
+    {
+      "trophy_id": "GTAVI_016",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 6.75,
+      "predicted_week1_earn_rate": 0.17061
+    },
+    {
+      "trophy_id": "GTAVI_017",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 7.2,
+      "predicted_week1_earn_rate": 0.15655
+    },
+    {
+      "trophy_id": "GTAVI_018",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 7.65,
+      "predicted_week1_earn_rate": 0.14364
+    },
+    {
+      "trophy_id": "GTAVI_019",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 8.1,
+      "predicted_week1_earn_rate": 0.1318
+    },
+    {
+      "trophy_id": "GTAVI_020",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 8.55,
+      "predicted_week1_earn_rate": 0.12094
+    },
+    {
+      "trophy_id": "GTAVI_021",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 9.0,
+      "predicted_week1_earn_rate": 0.11097
+    },
+    {
+      "trophy_id": "GTAVI_022",
+      "category": "story",
+      "difficulty": "easy",
+      "effort": 9.45,
+      "predicted_week1_earn_rate": 0.10182
+    },
+    {
+      "trophy_id": "GTAVI_023",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 1.2,
+      "predicted_week1_earn_rate": 0.38447
+    },
+    {
+      "trophy_id": "GTAVI_024",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 1.75,
+      "predicted_week1_earn_rate": 0.3461
+    },
+    {
+      "trophy_id": "GTAVI_025",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 2.3,
+      "predicted_week1_earn_rate": 0.31156
+    },
+    {
+      "trophy_id": "GTAVI_026",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 2.85,
+      "predicted_week1_earn_rate": 0.28047
+    },
+    {
+      "trophy_id": "GTAVI_027",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 3.4,
+      "predicted_week1_earn_rate": 0.25248
+    },
+    {
+      "trophy_id": "GTAVI_028",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 3.95,
+      "predicted_week1_earn_rate": 0.22728
+    },
+    {
+      "trophy_id": "GTAVI_029",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 4.5,
+      "predicted_week1_earn_rate": 0.2046
+    },
+    {
+      "trophy_id": "GTAVI_030",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 5.05,
+      "predicted_week1_earn_rate": 0.18418
+    },
+    {
+      "trophy_id": "GTAVI_031",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 5.6,
+      "predicted_week1_earn_rate": 0.1658
+    },
+    {
+      "trophy_id": "GTAVI_032",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 6.15,
+      "predicted_week1_earn_rate": 0.14925
+    },
+    {
+      "trophy_id": "GTAVI_033",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 6.7,
+      "predicted_week1_earn_rate": 0.13435
+    },
+    {
+      "trophy_id": "GTAVI_034",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 7.25,
+      "predicted_week1_earn_rate": 0.12095
+    },
+    {
+      "trophy_id": "GTAVI_035",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 7.8,
+      "predicted_week1_earn_rate": 0.10888
+    },
+    {
+      "trophy_id": "GTAVI_036",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 8.35,
+      "predicted_week1_earn_rate": 0.09801
+    },
+    {
+      "trophy_id": "GTAVI_037",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 8.9,
+      "predicted_week1_earn_rate": 0.08823
+    },
+    {
+      "trophy_id": "GTAVI_038",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 9.45,
+      "predicted_week1_earn_rate": 0.07942
+    },
+    {
+      "trophy_id": "GTAVI_039",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 10.0,
+      "predicted_week1_earn_rate": 0.0715
+    },
+    {
+      "trophy_id": "GTAVI_040",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 10.55,
+      "predicted_week1_earn_rate": 0.06436
+    },
+    {
+      "trophy_id": "GTAVI_041",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 11.1,
+      "predicted_week1_earn_rate": 0.05794
+    },
+    {
+      "trophy_id": "GTAVI_042",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 11.65,
+      "predicted_week1_earn_rate": 0.05216
+    },
+    {
+      "trophy_id": "GTAVI_043",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 12.2,
+      "predicted_week1_earn_rate": 0.04695
+    },
+    {
+      "trophy_id": "GTAVI_044",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 12.75,
+      "predicted_week1_earn_rate": 0.04227
+    },
+    {
+      "trophy_id": "GTAVI_045",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 13.3,
+      "predicted_week1_earn_rate": 0.03805
+    },
+    {
+      "trophy_id": "GTAVI_046",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 13.85,
+      "predicted_week1_earn_rate": 0.03425
+    },
+    {
+      "trophy_id": "GTAVI_047",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 14.4,
+      "predicted_week1_earn_rate": 0.03083
+    },
+    {
+      "trophy_id": "GTAVI_048",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 14.95,
+      "predicted_week1_earn_rate": 0.02775
+    },
+    {
+      "trophy_id": "GTAVI_049",
+      "category": "story",
+      "difficulty": "hard",
+      "effort": 4.5,
+      "predicted_week1_earn_rate": 0.14427
+    },
+    {
+      "trophy_id": "GTAVI_050",
+      "category": "story",
+      "difficulty": "hard",
+      "effort": 5.1,
+      "predicted_week1_earn_rate": 0.12863
+    },
+    {
+      "trophy_id": "GTAVI_051",
+      "category": "story",
+      "difficulty": "hard",
+      "effort": 5.7,
+      "predicted_week1_earn_rate": 0.11469
+    },
+    {
+      "trophy_id": "GTAVI_052",
+      "category": "story",
+      "difficulty": "hard",
+      "effort": 6.3,
+      "predicted_week1_earn_rate": 0.10227
+    },
+    {
+      "trophy_id": "GTAVI_053",
+      "category": "story",
+      "difficulty": "hard",
+      "effort": 6.9,
+      "predicted_week1_earn_rate": 0.09118
+    },
+    {
+      "trophy_id": "GTAVI_054",
+      "category": "story",
+      "difficulty": "hard",
+      "effort": 7.5,
+      "predicted_week1_earn_rate": 0.0813
+    },
+    {
+      "trophy_id": "GTAVI_055",
+      "category": "story",
+      "difficulty": "hard",
+      "effort": 8.1,
+      "predicted_week1_earn_rate": 0.07249
+    },
+    {
+      "trophy_id": "GTAVI_056",
+      "category": "story",
+      "difficulty": "hard",
+      "effort": 8.7,
+      "predicted_week1_earn_rate": 0.06464
+    },
+    {
+      "trophy_id": "GTAVI_057",
+      "category": "story",
+      "difficulty": "hard",
+      "effort": 9.3,
+      "predicted_week1_earn_rate": 0.05763
+    },
+    {
+      "trophy_id": "GTAVI_058",
+      "category": "story",
+      "difficulty": "hard",
+      "effort": 9.9,
+      "predicted_week1_earn_rate": 0.05139
+    },
+    {
+      "trophy_id": "GTAVI_059",
+      "category": "story",
+      "difficulty": "hard",
+      "effort": 10.5,
+      "predicted_week1_earn_rate": 0.04582
+    },
+    {
+      "trophy_id": "GTAVI_060",
+      "category": "story",
+      "difficulty": "hard",
+      "effort": 11.1,
+      "predicted_week1_earn_rate": 0.04085
+    },
+    {
+      "trophy_id": "GTAVI_061",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 0.2,
+      "predicted_week1_earn_rate": 0.53241
+    },
+    {
+      "trophy_id": "GTAVI_062",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 0.7,
+      "predicted_week1_earn_rate": 0.49086
+    },
+    {
+      "trophy_id": "GTAVI_063",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 1.2,
+      "predicted_week1_earn_rate": 0.45255
+    },
+    {
+      "trophy_id": "GTAVI_064",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 1.7,
+      "predicted_week1_earn_rate": 0.41723
+    },
+    {
+      "trophy_id": "GTAVI_065",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 2.2,
+      "predicted_week1_earn_rate": 0.38467
+    },
+    {
+      "trophy_id": "GTAVI_066",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 2.7,
+      "predicted_week1_earn_rate": 0.35464
+    },
+    {
+      "trophy_id": "GTAVI_067",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 3.2,
+      "predicted_week1_earn_rate": 0.32697
+    },
+    {
+      "trophy_id": "GTAVI_068",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 3.7,
+      "predicted_week1_earn_rate": 0.30145
+    },
+    {
+      "trophy_id": "GTAVI_069",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 4.2,
+      "predicted_week1_earn_rate": 0.27792
+    },
+    {
+      "trophy_id": "GTAVI_070",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 4.7,
+      "predicted_week1_earn_rate": 0.25623
+    },
+    {
+      "trophy_id": "GTAVI_071",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 5.2,
+      "predicted_week1_earn_rate": 0.23623
+    },
+    {
+      "trophy_id": "GTAVI_072",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 5.7,
+      "predicted_week1_earn_rate": 0.2178
+    },
+    {
+      "trophy_id": "GTAVI_073",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 6.2,
+      "predicted_week1_earn_rate": 0.2008
+    },
+    {
+      "trophy_id": "GTAVI_074",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 6.7,
+      "predicted_week1_earn_rate": 0.18513
+    },
+    {
+      "trophy_id": "GTAVI_075",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 7.2,
+      "predicted_week1_earn_rate": 0.17068
+    },
+    {
+      "trophy_id": "GTAVI_076",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 7.7,
+      "predicted_week1_earn_rate": 0.15736
+    },
+    {
+      "trophy_id": "GTAVI_077",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 8.2,
+      "predicted_week1_earn_rate": 0.14508
+    },
+    {
+      "trophy_id": "GTAVI_078",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 8.7,
+      "predicted_week1_earn_rate": 0.13375
+    },
+    {
+      "trophy_id": "GTAVI_079",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 9.2,
+      "predicted_week1_earn_rate": 0.12332
+    },
+    {
+      "trophy_id": "GTAVI_080",
+      "category": "misc",
+      "difficulty": "easy",
+      "effort": 9.7,
+      "predicted_week1_earn_rate": 0.11369
+    },
+    {
+      "trophy_id": "GTAVI_081",
+      "category": "misc",
+      "difficulty": "medium",
+      "effort": 2.5,
+      "predicted_week1_earn_rate": 0.28576
+    },
+    {
+      "trophy_id": "GTAVI_082",
+      "category": "misc",
+      "difficulty": "medium",
+      "effort": 3.2,
+      "predicted_week1_earn_rate": 0.25503
+    },
+    {
+      "trophy_id": "GTAVI_083",
+      "category": "misc",
+      "difficulty": "medium",
+      "effort": 3.9,
+      "predicted_week1_earn_rate": 0.22761
+    },
+    {
+      "trophy_id": "GTAVI_084",
+      "category": "misc",
+      "difficulty": "medium",
+      "effort": 4.6,
+      "predicted_week1_earn_rate": 0.20313
+    },
+    {
+      "trophy_id": "GTAVI_085",
+      "category": "misc",
+      "difficulty": "medium",
+      "effort": 5.3,
+      "predicted_week1_earn_rate": 0.18129
+    },
+    {
+      "trophy_id": "GTAVI_086",
+      "category": "misc",
+      "difficulty": "medium",
+      "effort": 6.0,
+      "predicted_week1_earn_rate": 0.1618
+    },
+    {
+      "trophy_id": "GTAVI_087",
+      "category": "misc",
+      "difficulty": "medium",
+      "effort": 6.7,
+      "predicted_week1_earn_rate": 0.1444
+    },
+    {
+      "trophy_id": "GTAVI_088",
+      "category": "misc",
+      "difficulty": "medium",
+      "effort": 7.4,
+      "predicted_week1_earn_rate": 0.12887
+    },
+    {
+      "trophy_id": "GTAVI_089",
+      "category": "misc",
+      "difficulty": "medium",
+      "effort": 8.1,
+      "predicted_week1_earn_rate": 0.11501
+    },
+    {
+      "trophy_id": "GTAVI_090",
+      "category": "misc",
+      "difficulty": "medium",
+      "effort": 8.8,
+      "predicted_week1_earn_rate": 0.10265
+    },
+    {
+      "trophy_id": "GTAVI_091",
+      "category": "misc",
+      "difficulty": "medium",
+      "effort": 9.5,
+      "predicted_week1_earn_rate": 0.09161
+    },
+    {
+      "trophy_id": "GTAVI_092",
+      "category": "misc",
+      "difficulty": "medium",
+      "effort": 10.2,
+      "predicted_week1_earn_rate": 0.08176
+    },
+    {
+      "trophy_id": "GTAVI_093",
+      "category": "misc",
+      "difficulty": "medium",
+      "effort": 10.9,
+      "predicted_week1_earn_rate": 0.07297
+    },
+    {
+      "trophy_id": "GTAVI_094",
+      "category": "misc",
+      "difficulty": "medium",
+      "effort": 11.6,
+      "predicted_week1_earn_rate": 0.06512
+    },
+    {
+      "trophy_id": "GTAVI_095",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 3.0,
+      "predicted_week1_earn_rate": 0.05571
+    },
+    {
+      "trophy_id": "GTAVI_096",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 3.65,
+      "predicted_week1_earn_rate": 0.04818
+    },
+    {
+      "trophy_id": "GTAVI_097",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 4.3,
+      "predicted_week1_earn_rate": 0.04168
+    },
+    {
+      "trophy_id": "GTAVI_098",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 4.95,
+      "predicted_week1_earn_rate": 0.03605
+    },
+    {
+      "trophy_id": "GTAVI_099",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 5.6,
+      "predicted_week1_earn_rate": 0.03118
+    },
+    {
+      "trophy_id": "GTAVI_100",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 6.25,
+      "predicted_week1_earn_rate": 0.02697
+    },
+    {
+      "trophy_id": "GTAVI_101",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 6.9,
+      "predicted_week1_earn_rate": 0.02333
+    },
+    {
+      "trophy_id": "GTAVI_102",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 7.55,
+      "predicted_week1_earn_rate": 0.02018
+    },
+    {
+      "trophy_id": "GTAVI_103",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 8.2,
+      "predicted_week1_earn_rate": 0.01746
+    },
+    {
+      "trophy_id": "GTAVI_104",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 8.85,
+      "predicted_week1_earn_rate": 0.0151
+    },
+    {
+      "trophy_id": "GTAVI_105",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 9.5,
+      "predicted_week1_earn_rate": 0.01306
+    },
+    {
+      "trophy_id": "GTAVI_106",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 10.15,
+      "predicted_week1_earn_rate": 0.0113
+    },
+    {
+      "trophy_id": "GTAVI_107",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 10.8,
+      "predicted_week1_earn_rate": 0.00977
+    },
+    {
+      "trophy_id": "GTAVI_108",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 11.45,
+      "predicted_week1_earn_rate": 0.00845
+    },
+    {
+      "trophy_id": "GTAVI_109",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 12.1,
+      "predicted_week1_earn_rate": 0.00731
+    },
+    {
+      "trophy_id": "GTAVI_110",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 12.75,
+      "predicted_week1_earn_rate": 0.00632
+    },
+    {
+      "trophy_id": "GTAVI_111",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 13.4,
+      "predicted_week1_earn_rate": 0.00547
+    },
+    {
+      "trophy_id": "GTAVI_112",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 14.05,
+      "predicted_week1_earn_rate": 0.00473
+    },
+    {
+      "trophy_id": "GTAVI_113",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 14.7,
+      "predicted_week1_earn_rate": 0.00409
+    },
+    {
+      "trophy_id": "GTAVI_114",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 15.35,
+      "predicted_week1_earn_rate": 0.00354
+    },
+    {
+      "trophy_id": "GTAVI_115",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 16.0,
+      "predicted_week1_earn_rate": 0.00306
+    },
+    {
+      "trophy_id": "GTAVI_116",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 16.65,
+      "predicted_week1_earn_rate": 0.00265
+    },
+    {
+      "trophy_id": "GTAVI_117",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 17.3,
+      "predicted_week1_earn_rate": 0.00229
+    },
+    {
+      "trophy_id": "GTAVI_118",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 17.95,
+      "predicted_week1_earn_rate": 0.00198
+    },
+    {
+      "trophy_id": "GTAVI_119",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 18.6,
+      "predicted_week1_earn_rate": 0.00171
+    },
+    {
+      "trophy_id": "GTAVI_120",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 19.25,
+      "predicted_week1_earn_rate": 0.00148
+    },
+    {
+      "trophy_id": "GTAVI_121",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 19.9,
+      "predicted_week1_earn_rate": 0.00128
+    },
+    {
+      "trophy_id": "GTAVI_122",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 20.55,
+      "predicted_week1_earn_rate": 0.00111
+    },
+    {
+      "trophy_id": "GTAVI_123",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 21.2,
+      "predicted_week1_earn_rate": 0.00096
+    },
+    {
+      "trophy_id": "GTAVI_124",
+      "category": "grind",
+      "difficulty": "grind",
+      "effort": 21.85,
+      "predicted_week1_earn_rate": 0.00083
+    },
+    {
+      "trophy_id": "GTAVI_125",
+      "category": "grind",
+      "difficulty": "hard",
+      "effort": 6.0,
+      "predicted_week1_earn_rate": 0.04902
+    },
+    {
+      "trophy_id": "GTAVI_126",
+      "category": "grind",
+      "difficulty": "hard",
+      "effort": 6.8,
+      "predicted_week1_earn_rate": 0.04101
+    },
+    {
+      "trophy_id": "GTAVI_127",
+      "category": "grind",
+      "difficulty": "hard",
+      "effort": 7.6,
+      "predicted_week1_earn_rate": 0.0343
+    },
+    {
+      "trophy_id": "GTAVI_128",
+      "category": "grind",
+      "difficulty": "hard",
+      "effort": 8.4,
+      "predicted_week1_earn_rate": 0.02869
+    },
+    {
+      "trophy_id": "GTAVI_129",
+      "category": "grind",
+      "difficulty": "hard",
+      "effort": 9.2,
+      "predicted_week1_earn_rate": 0.024
+    },
+    {
+      "trophy_id": "GTAVI_130",
+      "category": "grind",
+      "difficulty": "hard",
+      "effort": 10.0,
+      "predicted_week1_earn_rate": 0.02008
+    },
+    {
+      "trophy_id": "GTAVI_131",
+      "category": "grind",
+      "difficulty": "hard",
+      "effort": 10.8,
+      "predicted_week1_earn_rate": 0.0168
+    },
+    {
+      "trophy_id": "GTAVI_132",
+      "category": "grind",
+      "difficulty": "hard",
+      "effort": 11.6,
+      "predicted_week1_earn_rate": 0.01405
+    },
+    {
+      "trophy_id": "GTAVI_133",
+      "category": "grind",
+      "difficulty": "hard",
+      "effort": 12.4,
+      "predicted_week1_earn_rate": 0.01175
+    },
+    {
+      "trophy_id": "GTAVI_134",
+      "category": "grind",
+      "difficulty": "hard",
+      "effort": 13.2,
+      "predicted_week1_earn_rate": 0.00983
+    },
+    {
+      "trophy_id": "GTAVI_135",
+      "category": "grind",
+      "difficulty": "hard",
+      "effort": 14.0,
+      "predicted_week1_earn_rate": 0.00822
+    },
+    {
+      "trophy_id": "GTAVI_136",
+      "category": "grind",
+      "difficulty": "hard",
+      "effort": 14.8,
+      "predicted_week1_earn_rate": 0.00688
+    },
+    {
+      "trophy_id": "GTAVI_137",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 2.0,
+      "predicted_week1_earn_rate": 0.11296
+    },
+    {
+      "trophy_id": "GTAVI_138",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 2.6,
+      "predicted_week1_earn_rate": 0.10028
+    },
+    {
+      "trophy_id": "GTAVI_139",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 3.2,
+      "predicted_week1_earn_rate": 0.08903
+    },
+    {
+      "trophy_id": "GTAVI_140",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 3.8,
+      "predicted_week1_earn_rate": 0.07903
+    },
+    {
+      "trophy_id": "GTAVI_141",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 4.4,
+      "predicted_week1_earn_rate": 0.07016
+    },
+    {
+      "trophy_id": "GTAVI_142",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 5.0,
+      "predicted_week1_earn_rate": 0.06228
+    },
+    {
+      "trophy_id": "GTAVI_143",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 5.6,
+      "predicted_week1_earn_rate": 0.05529
+    },
+    {
+      "trophy_id": "GTAVI_144",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 6.2,
+      "predicted_week1_earn_rate": 0.04909
+    },
+    {
+      "trophy_id": "GTAVI_145",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 6.8,
+      "predicted_week1_earn_rate": 0.04358
+    },
+    {
+      "trophy_id": "GTAVI_146",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 7.4,
+      "predicted_week1_earn_rate": 0.03868
+    },
+    {
+      "trophy_id": "GTAVI_147",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 8.0,
+      "predicted_week1_earn_rate": 0.03434
+    },
+    {
+      "trophy_id": "GTAVI_148",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 8.6,
+      "predicted_week1_earn_rate": 0.03049
+    },
+    {
+      "trophy_id": "GTAVI_149",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 9.2,
+      "predicted_week1_earn_rate": 0.02706
+    },
+    {
+      "trophy_id": "GTAVI_150",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 9.8,
+      "predicted_week1_earn_rate": 0.02403
+    },
+    {
+      "trophy_id": "GTAVI_151",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 10.4,
+      "predicted_week1_earn_rate": 0.02133
+    },
+    {
+      "trophy_id": "GTAVI_152",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 11.0,
+      "predicted_week1_earn_rate": 0.01893
+    },
+    {
+      "trophy_id": "GTAVI_153",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 11.6,
+      "predicted_week1_earn_rate": 0.01681
+    },
+    {
+      "trophy_id": "GTAVI_154",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 12.2,
+      "predicted_week1_earn_rate": 0.01492
+    },
+    {
+      "trophy_id": "GTAVI_155",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 12.8,
+      "predicted_week1_earn_rate": 0.01325
+    },
+    {
+      "trophy_id": "GTAVI_156",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 13.4,
+      "predicted_week1_earn_rate": 0.01176
+    },
+    {
+      "trophy_id": "GTAVI_157",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 14.0,
+      "predicted_week1_earn_rate": 0.01044
+    },
+    {
+      "trophy_id": "GTAVI_158",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 14.6,
+      "predicted_week1_earn_rate": 0.00927
+    },
+    {
+      "trophy_id": "GTAVI_159",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 15.2,
+      "predicted_week1_earn_rate": 0.00823
+    },
+    {
+      "trophy_id": "GTAVI_160",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 15.8,
+      "predicted_week1_earn_rate": 0.0073
+    },
+    {
+      "trophy_id": "GTAVI_161",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 16.4,
+      "predicted_week1_earn_rate": 0.00648
+    },
+    {
+      "trophy_id": "GTAVI_162",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 17.0,
+      "predicted_week1_earn_rate": 0.00576
+    },
+    {
+      "trophy_id": "GTAVI_163",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 17.6,
+      "predicted_week1_earn_rate": 0.00511
+    },
+    {
+      "trophy_id": "GTAVI_164",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 18.2,
+      "predicted_week1_earn_rate": 0.00454
+    },
+    {
+      "trophy_id": "GTAVI_165",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 18.8,
+      "predicted_week1_earn_rate": 0.00403
+    },
+    {
+      "trophy_id": "GTAVI_166",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 19.4,
+      "predicted_week1_earn_rate": 0.00358
+    },
+    {
+      "trophy_id": "GTAVI_167",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 20.0,
+      "predicted_week1_earn_rate": 0.00317
+    },
+    {
+      "trophy_id": "GTAVI_168",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 20.6,
+      "predicted_week1_earn_rate": 0.00282
+    },
+    {
+      "trophy_id": "GTAVI_169",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 21.2,
+      "predicted_week1_earn_rate": 0.0025
+    },
+    {
+      "trophy_id": "GTAVI_170",
+      "category": "collectibles",
+      "difficulty": "collectible",
+      "effort": 21.8,
+      "predicted_week1_earn_rate": 0.00222
+    },
+    {
+      "trophy_id": "GTAVI_171",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 2.5,
+      "predicted_week1_earn_rate": 0.04007
+    },
+    {
+      "trophy_id": "GTAVI_172",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 3.2,
+      "predicted_week1_earn_rate": 0.03428
+    },
+    {
+      "trophy_id": "GTAVI_173",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 3.9,
+      "predicted_week1_earn_rate": 0.02932
+    },
+    {
+      "trophy_id": "GTAVI_174",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 4.6,
+      "predicted_week1_earn_rate": 0.02508
+    },
+    {
+      "trophy_id": "GTAVI_175",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 5.3,
+      "predicted_week1_earn_rate": 0.02145
+    },
+    {
+      "trophy_id": "GTAVI_176",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 6.0,
+      "predicted_week1_earn_rate": 0.01835
+    },
+    {
+      "trophy_id": "GTAVI_177",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 6.7,
+      "predicted_week1_earn_rate": 0.0157
+    },
+    {
+      "trophy_id": "GTAVI_178",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 7.4,
+      "predicted_week1_earn_rate": 0.01343
+    },
+    {
+      "trophy_id": "GTAVI_179",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 8.1,
+      "predicted_week1_earn_rate": 0.01148
+    },
+    {
+      "trophy_id": "GTAVI_180",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 8.8,
+      "predicted_week1_earn_rate": 0.00982
+    },
+    {
+      "trophy_id": "GTAVI_181",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 9.5,
+      "predicted_week1_earn_rate": 0.0084
+    },
+    {
+      "trophy_id": "GTAVI_182",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 10.2,
+      "predicted_week1_earn_rate": 0.00719
+    },
+    {
+      "trophy_id": "GTAVI_183",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 10.9,
+      "predicted_week1_earn_rate": 0.00615
+    },
+    {
+      "trophy_id": "GTAVI_184",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 11.6,
+      "predicted_week1_earn_rate": 0.00526
+    },
+    {
+      "trophy_id": "GTAVI_185",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 12.3,
+      "predicted_week1_earn_rate": 0.0045
+    },
+    {
+      "trophy_id": "GTAVI_186",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 13.0,
+      "predicted_week1_earn_rate": 0.00385
+    },
+    {
+      "trophy_id": "GTAVI_187",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 13.7,
+      "predicted_week1_earn_rate": 0.00329
+    },
+    {
+      "trophy_id": "GTAVI_188",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 14.4,
+      "predicted_week1_earn_rate": 0.00282
+    },
+    {
+      "trophy_id": "GTAVI_189",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 15.1,
+      "predicted_week1_earn_rate": 0.00241
+    },
+    {
+      "trophy_id": "GTAVI_190",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 15.8,
+      "predicted_week1_earn_rate": 0.00206
+    },
+    {
+      "trophy_id": "GTAVI_191",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 16.5,
+      "predicted_week1_earn_rate": 0.00176
+    },
+    {
+      "trophy_id": "GTAVI_192",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 17.2,
+      "predicted_week1_earn_rate": 0.00151
+    },
+    {
+      "trophy_id": "GTAVI_193",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 17.9,
+      "predicted_week1_earn_rate": 0.00129
+    },
+    {
+      "trophy_id": "GTAVI_194",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 18.6,
+      "predicted_week1_earn_rate": 0.0011
+    },
+    {
+      "trophy_id": "GTAVI_195",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 19.3,
+      "predicted_week1_earn_rate": 0.00094
+    },
+    {
+      "trophy_id": "GTAVI_196",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 20.0,
+      "predicted_week1_earn_rate": 0.00081
+    },
+    {
+      "trophy_id": "GTAVI_197",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 20.7,
+      "predicted_week1_earn_rate": 0.0008
+    },
+    {
+      "trophy_id": "GTAVI_198",
+      "category": "multiplayer",
+      "difficulty": "mp_locked",
+      "effort": 21.4,
+      "predicted_week1_earn_rate": 0.0008
+    },
+    {
+      "trophy_id": "GTAVI_199",
+      "category": "multiplayer",
+      "difficulty": "hard",
+      "effort": 5.0,
+      "predicted_week1_earn_rate": 0.05046
+    },
+    {
+      "trophy_id": "GTAVI_200",
+      "category": "multiplayer",
+      "difficulty": "hard",
+      "effort": 5.85,
+      "predicted_week1_earn_rate": 0.04174
+    },
+    {
+      "trophy_id": "GTAVI_201",
+      "category": "multiplayer",
+      "difficulty": "hard",
+      "effort": 6.7,
+      "predicted_week1_earn_rate": 0.03453
+    },
+    {
+      "trophy_id": "GTAVI_202",
+      "category": "multiplayer",
+      "difficulty": "hard",
+      "effort": 7.55,
+      "predicted_week1_earn_rate": 0.02857
+    },
+    {
+      "trophy_id": "GTAVI_203",
+      "category": "multiplayer",
+      "difficulty": "hard",
+      "effort": 8.4,
+      "predicted_week1_earn_rate": 0.02363
+    },
+    {
+      "trophy_id": "GTAVI_204",
+      "category": "multiplayer",
+      "difficulty": "hard",
+      "effort": 9.25,
+      "predicted_week1_earn_rate": 0.01955
+    },
+    {
+      "trophy_id": "GTAVI_205",
+      "category": "multiplayer",
+      "difficulty": "hard",
+      "effort": 10.1,
+      "predicted_week1_earn_rate": 0.01617
+    },
+    {
+      "trophy_id": "GTAVI_206",
+      "category": "multiplayer",
+      "difficulty": "hard",
+      "effort": 10.95,
+      "predicted_week1_earn_rate": 0.01338
+    },
+    {
+      "trophy_id": "GTAVI_207",
+      "category": "multiplayer",
+      "difficulty": "hard",
+      "effort": 11.8,
+      "predicted_week1_earn_rate": 0.01107
+    },
+    {
+      "trophy_id": "GTAVI_208",
+      "category": "multiplayer",
+      "difficulty": "hard",
+      "effort": 12.65,
+      "predicted_week1_earn_rate": 0.00915
+    },
+    {
+      "trophy_id": "GTAVI_209",
+      "category": "multiplayer",
+      "difficulty": "hard",
+      "effort": 13.5,
+      "predicted_week1_earn_rate": 0.00757
+    },
+    {
+      "trophy_id": "GTAVI_210",
+      "category": "multiplayer",
+      "difficulty": "hard",
+      "effort": 14.35,
+      "predicted_week1_earn_rate": 0.00626
+    },
+    {
+      "trophy_id": "GTAVI_211",
+      "category": "misc",
+      "difficulty": "hard",
+      "effort": 7.0,
+      "predicted_week1_earn_rate": 0.09697
+    },
+    {
+      "trophy_id": "GTAVI_212",
+      "category": "misc",
+      "difficulty": "hard",
+      "effort": 7.9,
+      "predicted_week1_earn_rate": 0.08378
+    },
+    {
+      "trophy_id": "GTAVI_213",
+      "category": "misc",
+      "difficulty": "hard",
+      "effort": 8.8,
+      "predicted_week1_earn_rate": 0.07238
+    },
+    {
+      "trophy_id": "GTAVI_214",
+      "category": "misc",
+      "difficulty": "hard",
+      "effort": 9.7,
+      "predicted_week1_earn_rate": 0.06253
+    },
+    {
+      "trophy_id": "GTAVI_215",
+      "category": "misc",
+      "difficulty": "hard",
+      "effort": 10.6,
+      "predicted_week1_earn_rate": 0.05402
+    },
+    {
+      "trophy_id": "GTAVI_216",
+      "category": "misc",
+      "difficulty": "hard",
+      "effort": 11.5,
+      "predicted_week1_earn_rate": 0.04667
+    },
+    {
+      "trophy_id": "GTAVI_217",
+      "category": "misc",
+      "difficulty": "hard",
+      "effort": 12.4,
+      "predicted_week1_earn_rate": 0.04032
+    },
+    {
+      "trophy_id": "GTAVI_218",
+      "category": "misc",
+      "difficulty": "hard",
+      "effort": 13.3,
+      "predicted_week1_earn_rate": 0.03483
+    },
+    {
+      "trophy_id": "GTAVI_219",
+      "category": "misc",
+      "difficulty": "hard",
+      "effort": 14.2,
+      "predicted_week1_earn_rate": 0.03009
+    },
+    {
+      "trophy_id": "GTAVI_220",
+      "category": "misc",
+      "difficulty": "hard",
+      "effort": 15.1,
+      "predicted_week1_earn_rate": 0.026
+    },
+    {
+      "trophy_id": "GTAVI_221",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 8.0,
+      "predicted_week1_earn_rate": 0.10479
+    },
+    {
+      "trophy_id": "GTAVI_222",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 9.2,
+      "predicted_week1_earn_rate": 0.08331
+    },
+    {
+      "trophy_id": "GTAVI_223",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 10.4,
+      "predicted_week1_earn_rate": 0.06623
+    },
+    {
+      "trophy_id": "GTAVI_224",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 11.6,
+      "predicted_week1_earn_rate": 0.05266
+    },
+    {
+      "trophy_id": "GTAVI_225",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 12.8,
+      "predicted_week1_earn_rate": 0.04186
+    },
+    {
+      "trophy_id": "GTAVI_226",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 14.0,
+      "predicted_week1_earn_rate": 0.03328
+    },
+    {
+      "trophy_id": "GTAVI_227",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 15.2,
+      "predicted_week1_earn_rate": 0.02646
+    },
+    {
+      "trophy_id": "GTAVI_228",
+      "category": "story",
+      "difficulty": "medium",
+      "effort": 16.4,
+      "predicted_week1_earn_rate": 0.02104
+    }
+  ]
+}

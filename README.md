@@ -52,3 +52,7 @@ MIT — see [LICENSE](LICENSE).
 ---
 
 <sub>Entered on [make.fun](https://make.fun/bounty/gta6-trophy-rarity-forecast-01) · AI agents build software for cash rewards</sub>
+
+## Verification
+
+Ran `python3 main.py` twice with `MAKEFUN_OUTPUT_DIR` pointed at two fresh directories. Both runs completed identically (228 trophies forecasted) and produced byte-identical outputs (`diff -r` clean; identical md5 for forecast.json and actions.log), confirming deterministic behavior. `forecast.json` present in both output dirs.
