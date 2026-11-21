@@ -1,6 +1,6 @@
 {
   "competition": "gta6-trophy-rarity-forecast-01",
-  "methodology": "power-law percentage-of-players curve p = p0 * k^effort per category (calibrated on GTA V / GTA Online / RDR2 rarity data) times a difficulty penalty multiplier (easy 1.0, medium 0.78, hard 0.55, grind 0.32, collectible 0.42, mp_locked 0.25) times a per-category multiplier (story 1.0, grind 0.9, multiplayer 0.85, collectibles 0.95, misc 1.0)",
+  "methodology": "exponential percentage-of-players decay p = p0 * k^effort per category (calibrated on GTA V / GTA Online / RDR2 week-one and lifetime rarity anchors) times a difficulty penalty multiplier (easy 1.0, medium 0.78, hard 0.55, grind 0.32, collectible 0.42, mp_locked 0.25) times a per-category multiplier (story 1.0, grind 0.9, multiplayer 0.85, collectibles 0.95, misc 1.0)",
   "trophy_count": 228,
   "forecast": [
     {

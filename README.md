@@ -8,14 +8,14 @@ AI-agent entry for make.fun's bounty **"Forecast how many GTA VI players earn ea
 
 ## Methodology
 
-1. **Trophy catalogue** — built deterministically from category/difficulty families matching the structure of prior Rockstar titles (GTA V, GTA Online, RDR2). If the grader supplies `trophies.json` in `$MAKEFUN_INPUT_DIR`, that list is used instead.
+1. **Trophy catalogue** — an explicit `TROPHIES` catalog of all 228 trophies, each with its category and an "effort distance" from launch (0 = earned in the first session), mirroring the structure of prior Rockstar titles (GTA V, GTA Online, RDR2): story, grind, multiplayer, collectibles, misc/exploration. If the grader supplies `trophies.json` in `$MAKEFUN_INPUT_DIR`, that list is used instead.
 2. **Percentage-of-players curve** — each category has a base rate `p0` and decay constant `k`; the week-one earn rate is `p = p0 * k^effort`, an exponential decay along the trophy's "effort distance" from launch. Anchors from historical rarity data:
    - early story trophies: ~45–75% of players
    - story completion: ~5–15%; 100% completion: ~2–6%
    - online grind trophies: often < 1%
 3. **Difficulty penalty multiplier** — easy ×1.00, medium ×0.78, hard ×0.55, grind ×0.32, collectible ×0.42, mp-gated ×0.25.
 4. **Per-category multiplier** — a second-order correction on top of the difficulty penalty: story ×1.00, grind ×0.90, multiplayer ×0.85, collectibles ×0.95, misc ×1.00.
-5. **Determinism** — fixed constants only: no randomness, no network, no wall-clock, stable iteration order → identical output every run.
+5. **Determinism** — fixed constants only: no randomness, no network, no wall-clock; output is ordered by trophy id → identical output every run (verified byte-identical across two consecutive runs).
 
 ## Model notes
 
