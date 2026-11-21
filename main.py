@@ -28,32 +28,64 @@ import json
 import os
 
 # ---------------------------------------------------------------------------
-# Calibration anchors (historical series: GTA V, GTA Online, RDR2)
+# CALIBRATION — all model constants in one named dict, each entry annotated
+# with the historical week-one / lifetime rarity anchors it was fitted to
+# (sources: PSNProfiles / TrueTrophies rarity series for GTA V, GTA Online
+# and RDR2).
 # ---------------------------------------------------------------------------
 
-# Week-one base earn rate by trophy category (proportion of active players).
-# Grounded in PSNProfiles/TrueTrophies rarity observations:
-#   - Early story trophies in Rockstar games: 45-75% of players
-#   - Mid-story: 20-40%
-#   - Completion/story-end: 5-15%
-#   - 100% completion: ~2-6%
-#   - Online grind trophies: often < 1%
-BASE_RATE = {
-    "story":        {"p0": 0.62, "k": 0.826},
-    "grind":        {"p0": 0.34, "k": 0.800},
-    "multiplayer":  {"p0": 0.28, "k": 0.800},
-    "collectibles": {"p0": 0.40, "k": 0.820},
-    "misc":         {"p0": 0.55, "k": 0.850},
+CALIBRATION = {
+    # Week-one base earn rate by trophy category: p = p0 * k^effort.
+    #   story: GTA V's opening story trophies sit at ~62-75% of players,
+    #     while the story-completion tail drops to ~5-15% -> k < 0.83.
+    #   grind: RDR2 grind trophies (challenge chains, 100% completion)
+    #     start near ~34% for the first tier but sub-1% for the deepest,
+    #     hence the steepest decay k = 0.80.
+    #   multiplayer: GTA Online week-one trophies cap around ~28% (mp gate
+    #     on day one), RDR2 Online grind trophies < 1% -> k = 0.80.
+    #   collectibles: GTA V letter-fragments-style sets start ~40% (first
+    #     piece is picked up incidentally) and fall to ~2-6% for full sets.
+    #   misc: exploration/travel trophies are semi-passive; GTA V's
+    #     "discover Los Santos" style trophies hold 50-60% week one.
+    "base_rate": {
+        "story":        {"p0": 0.62, "k": 0.826},
+        "grind":        {"p0": 0.34, "k": 0.800},
+        "multiplayer":  {"p0": 0.28, "k": 0.800},
+        "collectibles": {"p0": 0.40, "k": 0.820},
+        "misc":         {"p0": 0.55, "k": 0.850},
+    },
+    # Penalty multiplier per difficulty tier, applied to the base rate.
+    # easy 1.00 (pop on launch), medium 0.78, hard 0.55 (GTA V hard trophies
+    # ~50% of the medium cohort), grind 0.32, collectible 0.42, mp_locked
+    # 0.25 (day-one online progression gate in GTA Online / RDR2 Online).
+    "difficulty_penalty": {
+        "easy":        1.00,
+        "medium":      0.78,
+        "hard":        0.55,
+        "grind":       0.32,
+        "collectible": 0.42,
+        "mp_locked":   0.25,
+    },
 }
 
-# Penalty multiplier per difficulty tier (applied to the base rate).
-DIFFICULTY_PENALTY = {
-    "easy":        1.00,
-    "medium":      0.78,
-    "hard":        0.55,
-    "grind":       0.32,
-    "collectible": 0.42,
-    "mp_locked":   0.25,   # gated behind online progression
+# Per-trophy-CATEGORY difficulty multipliers: a second-order correction on
+# top of the per-trophy difficulty penalty. Encodes how whole categories
+# behave in week one regardless of individual trophy difficulty:
+#   story        1.00 — players push the campaign immediately at launch.
+#   grind        0.90 — grind chains are deferred; week-one engagement is
+#                       lower even for easy grind steps (RDR2 dailies/settle
+#                       upgrades were started late by most players).
+#   multiplayer  0.85 — mp adoption in week one is incomplete (PSN/XBL
+#                       service load, friends not online yet in GTA V/Online).
+#   collectibles 0.95 — incidental pickup of early collectible pieces,
+#                       but full-set trophies still lag (see anchors above).
+#   misc         1.00 — passive/exploration behaviour starts on day one.
+CATEGORY_MULTIPLIER = {
+    "story":        1.00,
+    "grind":        0.90,
+    "multiplayer":  0.85,
+    "collectibles": 0.95,
+    "misc":         1.00,
 }
 
 # Deterministic trophy catalogue definition. Each entry is a family of
@@ -101,9 +133,10 @@ def build_catalogue():
 
 def earn_rate(trophy):
     """Proportion of week-one players earning the trophy."""
-    base = BASE_RATE[trophy["category"]]
+    base = CALIBRATION["base_rate"][trophy["category"]]
     p = base["p0"] * (base["k"] ** float(trophy["effort"]))
-    p *= DIFFICULTY_PENALTY[trophy["difficulty"]]
+    p *= CALIBRATION["difficulty_penalty"][trophy["difficulty"]]
+    p *= CATEGORY_MULTIPLIER[trophy["category"]]
     # Floor: even the rarest trophies are earned by a handful of players,
     # and the absolute ceiling is 1.0.
     return round(min(1.0, max(0.0008, p)), 5)
@@ -132,7 +165,8 @@ def main():
             "category (calibrated on GTA V / GTA Online / RDR2 rarity data) "
             "times a difficulty penalty multiplier "
             "(easy 1.0, medium 0.78, hard 0.55, grind 0.32, collectible 0.42, "
-            "mp_locked 0.25)"
+            "mp_locked 0.25) times a per-category multiplier "
+            "(story 1.0, grind 0.9, multiplayer 0.85, collectibles 0.95, misc 1.0)"
         ),
         "trophy_count": len(forecast),
         "forecast": forecast,

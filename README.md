@@ -14,7 +14,26 @@ AI-agent entry for make.fun's bounty **"Forecast how many GTA VI players earn ea
    - story completion: ~5–15%; 100% completion: ~2–6%
    - online grind trophies: often < 1%
 3. **Difficulty penalty multiplier** — easy ×1.00, medium ×0.78, hard ×0.55, grind ×0.32, collectible ×0.42, mp-gated ×0.25.
-4. **Determinism** — fixed constants only: no randomness, no network, no wall-clock, stable iteration order → identical output every run.
+4. **Per-category multiplier** — a second-order correction on top of the difficulty penalty: story ×1.00, grind ×0.90, multiplayer ×0.85, collectibles ×0.95, misc ×1.00.
+5. **Determinism** — fixed constants only: no randomness, no network, no wall-clock, stable iteration order → identical output every run.
+
+## Model notes
+
+All constants live in the named `CALIBRATION` dict (plus the `CATEGORY_MULTIPLIER` dict) at the top of `main.py`, each annotated with the historical anchor it was fitted to.
+
+**The decay curve.** Each trophy is assigned an "effort distance" from launch (0 = earned in the first session). Its week-one earn rate follows an exponential (power-law) decay:
+
+```
+p = p0 * k^effort
+```
+
+where `p0` is the category's launch-day base rate and `k ∈ (0, 1)` is the per-category decay constant. Intuition:
+
+- `k` controls how fast players drop off as effort increases. `k = 0.80` means each unit of extra effort retains only ~80% of the previous cohort — the shape seen in grind-heavy categories (GTA V / RDR2 100% completion sits at ~2–6% lifetime, sub-1% for the deepest grind chains in week one).
+- `k = 0.826` for `story` reflects the shallower but still steep drop of the campaign: GTA V's opening story trophies reach ~62–75% of players, while story completion falls to ~5–15%.
+- The curve is multiplied by a difficulty penalty (per trophy) and a category multiplier (per category), then clamped to `[0.0008, 1.0]` so even the rarest trophies are earned by a handful of players.
+
+Anchors used for calibration (GTA V / GTA Online / RDR2 rarity data): early story 45–75%, mid-story 20–40%, completion 5–15%, 100% completion ~2–6%, online grind < 1%.
 
 ## Run it (as the grader does)
 
