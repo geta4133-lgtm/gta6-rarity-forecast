@@ -39,11 +39,11 @@ import os
 #   - 100% completion: ~2-6%
 #   - Online grind trophies: often < 1%
 BASE_RATE = {
-    "story":        {"p0": 0.62, "k": 0.972},
-    "grind":        {"p0": 0.34, "k": 0.958},
-    "multiplayer":  {"p0": 0.28, "k": 0.950},
-    "collectibles": {"p0": 0.40, "k": 0.949},
-    "misc":         {"p0": 0.55, "k": 0.965},
+    "story":        {"p0": 0.62, "k": 0.826},
+    "grind":        {"p0": 0.34, "k": 0.800},
+    "multiplayer":  {"p0": 0.28, "k": 0.800},
+    "collectibles": {"p0": 0.40, "k": 0.820},
+    "misc":         {"p0": 0.55, "k": 0.850},
 }
 
 # Penalty multiplier per difficulty tier (applied to the base rate).
